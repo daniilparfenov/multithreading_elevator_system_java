@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.TreeMap;
 
 public class RequestGenerator implements Runnable {
     private final ElevatorSystem elevatorSystem; // Система управления лифтами, через которую будем отправлять запросы
